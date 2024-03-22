@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>courier.pd</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <script defer src="scripts.js"></script>
+    <style>
+      html, body {
+      display: flex;
+      justify-content: center;
+      font-family: Roboto, Arial, sans-serif;
+      font-size: 15px;
+      overflow-y: hidden;
+      }
+      form {
+      border: 5px solid #f1f1f1;
+      }
+      input[type=text], input[type=password] {
+      width: 100%;
+      padding: 16px 8px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+      }
+      button {
+      background-color: #8ebf42;
+      color: white;
+      padding: 14px 0;
+      margin: 10px 0;
+      border: none;
+      cursor: grabbing;
+      width: 100%;
+      }
+      h1 {
+      text-align:center;
+      fone-size:18;
+      }
+      button:hover {
+      opacity: 0.8;
+      }
+      .formcontainer {
+      text-align: left;
+      margin: 24px 50px 12px;
+      }
+      .container {
+      padding: 16px 0;
+      text-align:left;
+      }
+      span.psw {
+      float: right;
+      padding-top: 0;
+      padding-right: 15px;
+      }
+      /* Change styles for span on extra small screens */
+      @media screen and (max-width: 300px) {
+      span.psw {
+      display: block;
+      float: none;
+      }}
+    </style>
+</head>
+<body>
+    <form action="/action_page.php">
+        <h1>Login Form</h1>
+        <div class="formcontainer">
+        <hr/>
+        <div class="container">
+          <label for="uname"><strong>Username</strong></label>
+          <input type="text" placeholder="Enter Username" name="uname" required>
+          <label for="psw"><strong>Password</strong></label>
+          <input type="password" placeholder="Enter Password" name="psw" required>
+        </div>
+        <button type="submit">Login</button>
+        <div class="container" style="background-color: #eee">
+          <label style="padding-left: 15px">
+          <input type="checkbox"  checked="checked" name="remember"> Remember me
+          </label>
+          <span class="psw"><a href="#"> Forgot password?</a></span>
+          <p>new?</p>
+          <p><a href="create.html"> Register</a></p>
+        </div>
+      </form>
+    <!-- <header>
+        <div class="headerDiv">
+            <img src="images/Frame 1.png" alt="courier.pd logo" height="50px; width:70px; ">
+        </div>
+        <div class="headerDiv">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="service.html">SERVICES</a></li>
+                <li><a href="locationsd.html">LOCATIONS</a></li>
+                <li><a href="why c.pd.html">WHY C.PD?</a></li>
+                <li><a href="contact us.html">CONTACT US</a></li>
+                <a href="login.html"><button id="ul button">LOGIN</button></a>
+            </ul>
+        </div>
+    </header> -->
+    <!-- <section>
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeeoV6HZC_lnm6MeZXZRBpqNfsToNXZ1SAdhD6PUYrqPdCsYQ/viewform?embedded=true" width="640" height="1089" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+    </section> -->
+    
+</body>
+</html>

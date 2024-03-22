@@ -1,0 +1,147 @@
+body{
+    margin: auto;
+    box-sizing: border-box;
+    padding: 0;
+    overflow-y: hidden;
+}
+
+header{
+    height: 8vh;
+    width: auto;
+    display: flex;
+    border: 1px solid black;
+    justify-content: flex-end;
+}
+
+.headerDiv{
+    height: 8vh;
+    width: 50%;
+    border: 1px solid black; 
+    justify-content: flex-end;
+    display: flex;
+    padding-right: 30px;
+}
+
+header ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+header ul button{
+    height: fit-content;
+    width: fit-content;
+    padding: 3px;
+    font-size: large;
+    border-radius: 15px;
+    border-color: black;
+    position: relative;
+    bottom: 7px;
+}
+
+header img{
+    position: relative;
+    right: 500px;
+}
+
+header ul :hover{
+    color: coral;
+    
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.hero{
+    height: 70vh;
+    width: auto;
+    background-color: #051e82;
+    border: 2px solid black; 
+    margin-top: 5px;
+    background-image: url(images/Employees+at+desk+inside+warehouse.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    background-size: cover;
+    /* padding-left: 20px; */
+}
+
+.hero button{
+    border-radius: 7px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: xx-large;
+    position: relative;
+    top: 80px;
+}
+
+.hero h1{
+    position: relative;
+    top: 80px;
+}
+
+.heroDiv{
+    height: 70vh;
+    width: auto;
+    border: 1px solid black;
+    font-size: 40px;
+    color: rgb(250, 250, 250);
+    padding-left: 20px;
+    
+    
+}
+
+.gallery{
+    height: 60vh;
+    width: auto;
+     border: 1px solid black;
+     /* background-color: #2492eb; */
+    display: flex;
+    margin-top: 5px;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    color: rgb(0, 0, 0);
+}
+
+.gallery h3{
+    font-size: 60px;
+    color: #051e82;
+
+
+
+}
+.child{
+    height: 50vh;
+    width: 22%;
+    border: 1px solid black;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    
+    
+}
+
+.gallery button{
+    position: relative;
+    top: 60px;
+}
+
+.gallery button{
+    height: fit-content;
+    width: fit-content;
+    padding: 3px;
+    font-size: large;
+    border-radius: 15px;
+    border-color: black;
+    position: relative;
+    bottom: 7px;
+}
+
+ 
+
+
